@@ -6,9 +6,10 @@ import SortCss from 'postcss-sort-media-queries';
 
 export default defineConfig(({ command }) => {
   return {
-    define: {
-      [command === 'serve' ? 'global' : '_global']: {},
-    },
+define: {
+  [command === 'serve' ? 'global' : '_global']: {},
+},
+
     root: 'src',
     build: {
       sourcemap: true,
