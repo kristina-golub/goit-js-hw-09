@@ -4,11 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gallery</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <script type="module" crossorigin src="/goit-hw-09/2-form.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-hw-09/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="stylesheet" crossorigin href="/goit-hw-09/assets/styles-BdPagZHf.css">
   </head>
   <body>
     <p><a href="./index.html">Go back</a></p>
+    <form class="feedback-form" autocomplete="off">
+      <label>
+        Email
+        <input type="email" name="email" autofocus />
+      </label>
+      <label>
+        Message
+        <textarea name="message" rows="8"></textarea>
+      </label>
+      <button type="submit">Submit</button>
+    </form>
 
-    <script type="module" src="./js/2-form.js"></script>
   </body>
 </html>
